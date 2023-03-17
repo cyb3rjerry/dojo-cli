@@ -1,7 +1,7 @@
 package main
 
-import "github.com/cyb3rjerry/dojo-cli/cmd/dojo"
+import "github.com/cyb3rjerry/dojo-cli/cmd"
 
 func main() {
-  dojo.Execute()
+	cmd.Execute()
 }
